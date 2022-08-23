@@ -16,8 +16,8 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I am a self-taught MERN stack developer. In m 3+ years of
-              development experience I have also worked on JAM stack app and
-              google apps scripting.
+              development experience, along with MERN, I have also worked on JAM
+              stack app and google apps scripting.
               <br />
               <br />I am proficient in Javascript frameworks like
               <i>
