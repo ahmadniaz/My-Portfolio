@@ -6,6 +6,8 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
+  SiJupyter,
+  SiGooglecolab,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -13,6 +15,12 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJupyter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglecolab />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />

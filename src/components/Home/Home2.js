@@ -15,23 +15,27 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a self-taught MERN stack developer. In m 3+ years of
-              development experience, along with MERN, I have also worked on JAM
-              stack app and google apps scripting.
+              I am a self-taught MERN stack developer and a data science
+              enthusiast. In my 2+ years of development experience, along with
+              MERN, I have also worked on JAM stack app and google apps
+              scripting. Right now my research interest are Data Science and
+              Machine Learning.
               <br />
               <br />I am proficient in Javascript frameworks like
               <i>
                 <b className="purple">
                   {" "}
                   React.js, Node.js, Express.js. I have also worked a bit on
-                  Next.js. I am learning Typescript also.{" "}
+                  Next.js.{" "}
                 </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b>
+                <b className="purple">
+                  Web Technologies and learning about in-demand skills{" "}
+                </b>
               </i>
               <br />
               <br />

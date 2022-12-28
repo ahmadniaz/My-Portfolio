@@ -15,11 +15,32 @@ import {
   SiTailwindcss,
   SiMaterialui,
   SiExpress,
+  SiPython,
+  SiNumpy,
+  SiPandas,
+  SiScikitlearn,
+  SiTensorflow,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPandas />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiScikitlearn />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTensorflow />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNumpy />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
