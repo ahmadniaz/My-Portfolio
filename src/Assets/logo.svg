@@ -1,0 +1,32 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle with gradient -->
+  <circle cx="30" cy="30" r="28" fill="url(#logoGradient)" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  
+  <!-- Code brackets representing development -->
+  <path d="M18 20 L12 20 L12 40 L18 40" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <path d="M42 20 L48 20 L48 40 L42 40" stroke="white" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- Central "M" for Muhammad -->
+  <path d="M22 25 L25 35 L28 25 L31 35 L34 25" stroke="url(#accentGradient)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  
+  <!-- AI/ML representation with neural network dots -->
+  <circle cx="25" cy="42" r="1.5" fill="url(#accentGradient)"/>
+  <circle cx="30" cy="45" r="1.5" fill="url(#accentGradient)"/>
+  <circle cx="35" cy="42" r="1.5" fill="url(#accentGradient)"/>
+  
+  <!-- Connecting lines for neural network -->
+  <path d="M25 42 L30 45" stroke="url(#accentGradient)" stroke-width="1" opacity="0.6"/>
+  <path d="M30 45 L35 42" stroke="url(#accentGradient)" stroke-width="1" opacity="0.6"/>
+</svg>
