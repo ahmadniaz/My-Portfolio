@@ -9,6 +9,9 @@ import OnlineContacts from "../../Assets/Projects/OnlineContacts.PNG";
 import PricePrediction from "../../Assets/Projects/bulldozer-price-detection.PNG";
 import BreedDetection from "../../Assets/Projects/dog-breed-detection.PNG";
 import DiseaseDetection from "../../Assets/Projects/heart-disease-detection.PNG";
+import CommissionTracker from "../../Assets/Projects/commission tracker.png";
+import GreenMe from "../../Assets/Projects/greenme.png";
+import BankingPlaceholder from "../../Assets/Projects/banking-placeholder.svg";
 import { 
   FaSearch, 
   FaFilter, 
@@ -36,13 +39,13 @@ function Projects() {
       id: 1,
       title: "AI Document Processing Platform",
       description: "Full-stack ML application for automated table extraction from PDF/Excel documents using Python backend and Next.js/TypeScript frontend. Achieved 95%+ accuracy with AWS Textract, Google DocAI, Docling, and Tableformer integration.",
-      imgPath: PricePrediction,
+      imgPath: CommissionTracker,
       category: "AI/ML",
       icon: FaBrain,
       color: "from-accent-purple to-accent-pink",
       technologies: ["Python", "Next.js", "TypeScript", "AWS Textract", "Google DocAI", "OpenAI API"],
-      ghLink: "https://github.com/ahmadniaz",
-      demoLink: "#",
+      ghLink: "https://github.com/tahasheikh786/commission-tracker",
+      demoLink: "https://commission-tracker-ochre.vercel.app/",
       featured: true,
       year: "2025"
     },
@@ -50,12 +53,12 @@ function Projects() {
       id: 2,
       title: "GreenMe Platform (UN NGO)",
       description: "International collaboration project for EU NGO platform with enhanced maintainability through architectural improvements. Built with React.js, Redux Toolkit, and REST APIs for sustainable development initiatives.",
-      imgPath: BreedDetection,
+      imgPath: GreenMe,
       category: "Full Stack",
       icon: FaGlobe,
       color: "from-accent-green to-accent-blue",
       technologies: ["React.js", "Redux Toolkit", "Node.js", "PostgreSQL", "REST APIs"],
-      ghLink: "https://github.com/ahmadniaz",
+      ghLink: "https://github.com/Ndani-Technologies/greenme-fe",
       demoLink: "https://greenme.fleetforum.org",
       featured: true,
       year: "2023"
@@ -64,7 +67,7 @@ function Projects() {
       id: 3,
       title: "Digital Banking Suite",
       description: "Component-driven frontend development for secure multilingual banking applications. Built with React.js, Material UI, and Redux Toolkit for international user base with robust error handling and form validation.",
-      imgPath: DiseaseDetection,
+      imgPath: BankingPlaceholder,
       category: "Frontend",
       icon: FaCode,
       color: "from-accent-blue to-accent-green",
@@ -211,10 +214,10 @@ function Projects() {
           <motion.div variants={itemVariants} className="text-center space-y-6">
             <h1 className="text-5xl lg:text-6xl font-black">
               Featured <span className="gradient-text">Projects</span>
-            </h1>
+        </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              A showcase of my recent work including AI-powered applications, full-stack solutions, and machine learning projects.
-            </p>
+          A showcase of my recent work including AI-powered applications, full-stack solutions, and machine learning projects.
+        </p>
           </motion.div>
 
           {/* Search and Filter */}
